@@ -147,7 +147,7 @@ func isBigEndianFromMandatoryByteOrderFirstCharacter(_ format:String) -> Bool {
 }
 
 // akin to struct.calcsize(fmt)
-func numberOfBytesInFormat(_ format:String) -> Int {
+public func numberOfBytesInFormat(_ format:String) -> Int {
     
     var numberOfBytes = 0
     
